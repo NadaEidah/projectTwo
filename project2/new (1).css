@@ -1,0 +1,132 @@
+/*.container{
+  display: grid;
+  grid-template-rows:1fr 1fr 1fr;
+  grid-template-columns: 1fr; 
+
+}
+*/
+img{
+  margin-top: 10%;
+  padding: 5%;
+  width:20%;
+  height: 20%;
+}
+body{
+  background-image: url('im1.jpg');
+  background-repeat:  repeat;
+  width: 99%;
+ font-family: 'Acme', sans-serif;
+}
+.hedar{
+
+  width: 100%;
+  height:60px;
+  background-image: linear-gradient(to right,  #E4B4C2, #E7CEE3 ,#E0E1E9 );
+/*  /background-image: linear-gradient(to right,  #011638, #2E294E ,#9055A2 ,#E8C1C5);/
+  /background-image: linear-gradient(to right,  #523249, #815355 , #C3B299);/*/
+  border-bottom-right-radius: 100px; 
+/*  display: grid;*/
+  /*grid-template-rows: 1fr ;
+  grid-template-columns:1fr  ;*/
+
+}
+/*add there to div box in first page*/
+.firstPage{
+
+  height: 550px;
+  width: 550px;
+  background-color: pink;
+
+ margin-left:30%; 
+ font-size: 50px;
+
+}
+#pName{
+  color:white;
+  text-align: left;
+  font-size: 30px;
+}
+.fa-question-circle{
+color: white;
+font-size: 50px;
+/*/background: #000;/*/
+padding: 10px;
+/*/margin-left: 60%;/
+/border-radius: 30px;/
+*/
+}
+#in1{
+  width: 150px;
+  height: 50px;
+}
+#userName{
+ text-decoration: center;
+ margin:10%;
+ /*margin-left: 20%; */
+ font-size: 30px;
+ padding: 40px;
+
+}
+button {
+  background-color: gray;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 15px;
+
+}
+.btn1{
+  margin-left: 30%;
+}
+.btn2{
+/* margin-left:91%;*/
+ background-color: green;
+}
+
+
+.levels{
+  width: 300px;
+  height: 50px;
+  display:none;
+  background-color: #9F81F7;
+  font-size:50px;
+  text-align: center;
+  margin-top: 70px; 
+    /*margin-left:650px; */ 
+  border: 2px solid black; 
+  padding: 30px; 
+  border-radius: 70px;
+}
+
+#div1{
+  margin-left: 250px;
+}
+#div2{
+  margin-left: 450px;
+
+
+}
+#div3{
+  margin-left: 650px;
+}
+
+
+
+
+
+
+.buttonNext{
+  margin-top: 100px;
+}
+
+.se{
+height: 550px;
+  width: 550px;
+  background-color: pink;
+
+ margin-left:30%; 
+ font-size: 50px;
+  display:none;
+
+}
